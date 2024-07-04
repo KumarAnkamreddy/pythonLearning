@@ -17,13 +17,16 @@ def prime(x, y):
 
 
 # Driver program
-starting_range = 2
-ending_range = 100
+starting_range = 0
+ending_range = 200
 list = prime(starting_range, ending_range)
 if len(list) == 0:
     print("There are no prime numbers in this range")
 else:
     print("The prime numbers in this range are: ", list)
+
+print("No.of.Prime numbers in range : ", len(list))
+
 
 
 
